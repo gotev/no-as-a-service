@@ -32,14 +32,59 @@ Sometimes the only possible answer you can give is `NO`. It's not easy, but sayi
 If you're reading this, I've sold you the service :tada:! So let's get to the details!
 
 ## Getting started
+Easiest way to express a NO is a Boolean `false` value. Saying NO is already difficult, so let's keep it simple stupid! (Wow KISS Principle applied!)
+
 Many different ways to say no:
 
-`cURL`
+### cURL
+`curl https://gotev.github.io/no-as-a-service/request.json`
 
-`JavaScript`
+### JavaScript
+```javascript
+fetch('https://gotev.github.io/no-as-a-service/request.json')
+  .then(responsePayload => responsePayload.json())
+  .then(responseJson => console.log(responseJson))
+```
 
-`Android`
+### OkHttp (Java Virtual Machine & Android) - written in Kotlin
+```kotlin
+val client = OkHttpClient()
+val request = Request.Builder()
+    .url("https://gotev.github.io/no-as-a-service/request.json")
+    .build()
 
-`iOS`
+client.newCall(request).enqueue(object : Callback {
+    override fun onFailure(call: Call, e: IOException) {
+        // Do something with your error
+    }
 
-Submit your own!
+    override fun onResponse(call: Call, response: Response) {
+        // do something with the response
+    }
+})
+```
+
+### iOS
+```swift
+let session = URLSession.shared
+let requestUrl = URL(string: "https://gotev.github.io/no-as-a-service/request.json")!
+
+session.dataTask(with: requestUrl, completionHandler: { data, response, error in
+    if let error = error {
+        print(error)
+        return
+    }
+    
+    guard let data = data else { return }
+    
+    print(String(data: data, encoding: .utf8) ?? "")
+}).resume()
+```
+
+## Contributing
+Contributing is easy, just open a PR with your idea! It can be providing a new code example, extending this README. Let's make NO great again!
+
+## License
+Getting formal here. Prepare your best suit & tie before reading!
+
+Ehm..suit & tie first, thanks!
