@@ -77,7 +77,7 @@ session.dataTask(with: requestUrl, completionHandler: { data, response, error in
     
     guard let data = data else { return }
     
-    print(String(data: data, encoding: .utf8) ?? "")
+    // Do something with the response
 }).resume()
 ```
 
