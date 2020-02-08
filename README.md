@@ -82,7 +82,7 @@ session.dataTask(with: requestUrl, completionHandler: { data, response, error in
 ```
 
 ## Contributing
-Contributing is easy, just open a PR with your idea! It can be providing a new code example, extending this README. Let's make NO great again!
+Contributing is easy, just open a PR with your idea! It can be providing a new code example, improving an existing one, extending this README. Let's make `NO` great again!
 
 ## License
 Getting formal here. Prepare your best suit & tie before reading!
