@@ -1,0 +1,27 @@
+# Android TV
+0.0.0.0 androidtvchannels-pa.googleapis.com
+0.0.0.0 androidtvwatsonfe-pa.googleapis.com
+0.0.0.0 api-gps-em.hismarttv.com
+0.0.0.0 auth-em.hismarttv.com
+0.0.0.0 msg-em.hismarttv.com
+0.0.0.0 api-launcher-em.hismarttv.com
+0.0.0.0 auth-launcher-em.hismarttv.com
+0.0.0.0 api-gps-na.hismarttv.com
+0.0.0.0 auth-na.hismarttv.com
+0.0.0.0 msg-na.hismarttv.com
+0.0.0.0 api-launcher-na.hismarttv.com
+0.0.0.0 auth-launcher-na.hismarttv.com
+0.0.0.0 unified-ter-na.hismarttv.com
+0.0.0.0 ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv
+0.0.0.0 ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv
+0.0.0.0 api-mf1.meta.ndmdhs.com
+0.0.0.0 b02.black.ndmdhs.com
+0.0.0.0 bravia.dl.playstation.net
+0.0.0.0 call.me.sel.sony.com
+0.0.0.0 flingo.tv
+0.0.0.0 sonybivstatic-a.akamaihd.net
+0.0.0.0 facemap.foldlife.net
+0.0.0.0 bdcore-apr-lb.bda.ndmdhs.com
+0.0.0.0 tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
+0.0.0.0 api.cid.samba.tv
+0.0.0.0 preferences.cid.samba.tv
