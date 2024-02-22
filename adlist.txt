@@ -31,3 +31,4 @@
 0.0.0.0 browser.sentry-cdn.com
 0.0.0.0 udcm.yahoo.com
 0.0.0.0 adfstat.yandex.ru
+0.0.0.0 events.hotjar.io
