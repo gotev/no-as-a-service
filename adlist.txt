@@ -26,3 +26,8 @@
 0.0.0.0 api.cid.samba.tv
 0.0.0.0 preferences.cid.samba.tv
 0.0.0.0 advertising-api-eu.amazon.com
+0.0.0.0 claritybt.freshmarketer.com
+0.0.0.0 fwtracks.freshmarketer.com
+0.0.0.0 browser.sentry-cdn.com
+0.0.0.0 udcm.yahoo.com
+0.0.0.0 adfstat.yandex.ru
