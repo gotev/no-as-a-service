@@ -32,3 +32,5 @@
 0.0.0.0 udcm.yahoo.com
 0.0.0.0 adfstat.yandex.ru
 0.0.0.0 events.hotjar.io
+0.0.0.0 bdapi-ads.realmemobile.com
+0.0.0.0 bdapi-in-ads.realmemobile.com
