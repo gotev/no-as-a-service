@@ -25,3 +25,4 @@
 0.0.0.0 tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
 0.0.0.0 api.cid.samba.tv
 0.0.0.0 preferences.cid.samba.tv
+0.0.0.0 advertising-api-eu.amazon.com
